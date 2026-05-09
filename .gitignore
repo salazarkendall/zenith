@@ -1,0 +1,46 @@
+# --- Java & Build Tools ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+build/
+.gradle/
+.mtl.bin
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+*.log
+# Si usas certificados locales para SSL/TLS
+*.pem
+*.key
+*.jks
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+# Excluir específicamente archivos de configuración de tareas que podrían tener rutas locales
+.idea/jarRepositories.xml
+.idea/usageTracker.xml
+
+# --- VS Code ---
+.vscode/
+!.vscode/extensions.json
+
+# --- OS Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Docker & Infrastructure ---
+.docker-data/
+localstack-data/
+
+# --- Spring Boot ---
+HELP.md
+.sts4-cache/
